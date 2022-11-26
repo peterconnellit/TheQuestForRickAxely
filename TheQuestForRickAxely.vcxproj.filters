@@ -24,12 +24,18 @@
     <ClCompile Include="AddedItems.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ArenaMainApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="AddedItems.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArenaMainApp.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
