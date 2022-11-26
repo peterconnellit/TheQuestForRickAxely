@@ -129,12 +129,14 @@
   <ItemGroup>
     <ClCompile Include="AddedItems.cpp" />
     <ClCompile Include="ArenaMainApp.cpp" />
+    <ClCompile Include="ArenaOptions.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="TheQuestForRickAxely.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AddedItems.h" />
     <ClInclude Include="ArenaMainApp.h" />
+    <ClInclude Include="ArenaOptions.h" />
     <ClInclude Include="Player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
