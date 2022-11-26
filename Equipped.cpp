@@ -1,4 +1,4 @@
-#include"Equiped.h"
+#include"Equipped.h"
 #include"Object.h"
 #include"StringFunctionality.h"
 #include"GetPlayerInputFunctions.h"

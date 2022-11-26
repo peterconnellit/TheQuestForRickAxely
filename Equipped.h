@@ -1,5 +1,5 @@
-#ifndef EQUIPED_H
-#define EQUIPED_H
+#ifndef EQUIPPED_H
+#define EQUIPPED_H
 #include<string>
 #include<list>
 #include"Object.h"
