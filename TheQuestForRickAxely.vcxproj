@@ -134,6 +134,7 @@
     <ClCompile Include="Equipped.cpp" />
     <ClCompile Include="GetPlayereInputFunctions.cpp" />
     <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="LoadedEnemies.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="TheQuestForRickAxely.cpp" />
   </ItemGroup>
@@ -146,6 +147,7 @@
     <ClInclude Include="Equipped.h" />
     <ClInclude Include="GetPlayerInputFunctions.h" />
     <ClInclude Include="Inventory.h" />
+    <ClInclude Include="LoadedEnemies.h" />
     <ClInclude Include="Player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
