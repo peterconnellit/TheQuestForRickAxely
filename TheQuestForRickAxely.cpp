@@ -19,17 +19,17 @@ using std::cout;		using std::cin;
 using std::endl;		using std::ifstream;
 using std::ostream;
 
-//simple game loop structure
+//Simple game loop structure
 int main()
 {
 	SetWindow(120, 50);
 
-	Map myMap; //create the map
-	Player currPlayer; //create the player
-	LoadedObjects allObjects;//create storage for all loaded game objects
-	LoadedEnemies allEnemies;//storage for all enemies
+	Map myMap; //Create the map
+	Player currPlayer; //Create the player
+	LoadedObjects allObjects; //Create storage for all loaded game objects
+	LoadedEnemies allEnemies; //Storage for all enemies
 
-	//functions that loads the files into map and object
+	//Functions that loads the files into map and object
 	if (startFromSave() == true)
 	{
 		loadSavedPlayer(currPlayer);
@@ -45,16 +45,16 @@ int main()
 		loadEnemies(allEnemies);
 	}
 
-	//game loop
+	//Game loop
 	bool done = false;
 	while (!done)
 	{
 		vector<string> sentence;
-		while (sentence.size() == 0)//this will get rid of 'no keywords enterred when he does not type anything
+		while (sentence.size() == 0) //This will get rid of 'no keywords enterred when he does not type anything
 		{
-			sentence = getInputn();//get input to parse
+			sentence = getInputn(); //Get input to parse
 		}
-		//parse any input and give you answer
+		//Parse any input and give you answer
 		parse(myMap, currPlayer, sentence, allObjects, allEnemies);
 	}
 

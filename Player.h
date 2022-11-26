@@ -1,10 +1,9 @@
-#pragma once
 #ifndef PLAYER_H
 #define PLAYER_H
 
-//this is player class interface to the user
+//This is player class interface to the user
 
-//player class
+//Player class
 #include<string>
 #include"Inventory.h"
 #include"Equiped.h"
@@ -14,7 +13,7 @@ class Enemy;
 
 class Player
 {
-protected://Set the variables to be private
+protected: //Set the variables to be private
 	int health;
 	int maxHealth;
 	int armor;
@@ -23,8 +22,8 @@ protected://Set the variables to be private
 	int level;
 	int currExperience;
 	std::string name;
-	Inventory pInventory;//Create new inventory for player
-	Equiped pHasEquiped;//Create new equiped 
+	Inventory pInventory; //Create new inventory for player
+	Equiped pHasEquiped; //Create new equiped 
 
 public:
 	//Default constructor

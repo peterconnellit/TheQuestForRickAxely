@@ -49,7 +49,7 @@ Player::Player(int arm, int atc, int blR, string nameN, Inventory pInvent, Equip
 	armor = arm;
 	attack = atc;
 	blockChance = blR;
-	pInventory = pInvent;//Get the inventory to player
+	pInventory = pInvent; //Get the inventory to player
 	pHasEquiped = phasEq;
 }
 //Deconstructor
@@ -57,7 +57,7 @@ Player::~Player(void)
 {
 }
 
-//INVENTORY FUNCTIONALITY
+//Inventory functionality
 
 //Add object to player inventory
 void Player::pickUp(Object& toAdd)
@@ -89,7 +89,7 @@ bool Player::checkUseWith(string& toCheck)
 	return pInventory.checkUseWith(toCheck);
 }
 
-//EQUIPMENT FUNCTIONALITY
+//Equipment functionality
 
 void Player::equip(Object& toAdd)
 {
@@ -116,7 +116,7 @@ bool Player::isInEquiped(string toCheck)
 	return pHasEquiped.checkIsEquiped(toCheck);
 }
 
-//VARIABLE FUNCTIONALITY
+//Variable functionality
 
 void Player::addHealth(int hel)
 {
@@ -187,7 +187,7 @@ void Player::setName(string nm)
 }
 
 
-//FIGHT FUNCTIONALITY
+//Fight functionality
 
 //Simple print to see what is in variables
 void Player::print()
@@ -202,7 +202,7 @@ void Player::fight(Enemy& e)
 	string centerSpace = centerString("", 10);
 	int damageDealth = 0; //Damage they deal to each other
 
-	//Generate secret number between 1 and 3: //
+	//Generate secret number between 1 and 3
 	int ranNum = Random(1, 3);
 
 	int ranBlock = Random(1, 100);
@@ -215,7 +215,7 @@ void Player::fight(Enemy& e)
 	else //Block not succesfull
 	{
 		damageDealth = (e.getAttack() + ranNum) - armor;
-		if (damageDealth < 0)// This prevents negative numbers
+		if (damageDealth < 0) //This prevents negative numbers
 		{
 			damageDealth = 0;
 		}
@@ -238,7 +238,7 @@ void Player::fight(Enemy& e)
 
 		damageDealth = (attack + ranNum) - e.getArmor();
 
-		if (damageDealth < 0)//This prevents from negative numbers
+		if (damageDealth < 0) //This prevents from negative numbers
 		{
 			damageDealth = 0;
 		}
@@ -246,7 +246,7 @@ void Player::fight(Enemy& e)
 		e.setHealth(e.getHealth() - damageDealth);
 		if (e.getHealth() <= 0)
 		{
-			e.setHealth(0);//Sets health to 0 if is negative
+			e.setHealth(0); //Sets health to 0 if is negative
 		}
 
 		cout << centerSpace << "Enemy health is " << e.getHealth() << endl;
@@ -256,7 +256,7 @@ void Player::fight(Enemy& e)
 
 bool Player::isDeath()
 {
-	if (health <= 0)//Yes is death
+	if (health <= 0) //Yes is death
 	{
 		return true;
 	}
@@ -268,7 +268,7 @@ void Player::loadPlayer(ifstream& inFile)
 {
 	string garbage;
 
-	inFile >> garbage >> name;//Read the object name
+	inFile >> garbage >> name; //Read the object name
 	inFile >> garbage >> health;
 	inFile >> garbage >> maxHealth;
 	inFile >> garbage >> armor;
