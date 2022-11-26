@@ -102,6 +102,7 @@ void LoadedObjects::sortAllObjects(Map& currMap, Player& currPlayer)
 	}
 
 }
+
 //Set the position of the objects between player and rooms according to changes in game
 void LoadedObjects::setWhereitIS(string toChange, string actualWhereItis)
 {
@@ -124,6 +125,7 @@ void LoadedObjects::setWhereitIS(string toChange, string actualWhereItis)
 		}
 	}
 }
+
 //Clone potion, adds to players inventory and loaded objects for saving later if player has not used all potions
 void LoadedObjects::addPotionAfterBattleWithClone(Player& currPlayer)
 {
@@ -141,7 +143,6 @@ void LoadedObjects::addPotionAfterBattleWithClone(Player& currPlayer)
 	}
 
 }
-
 
 void LoadedObjects::removeByName(string toRemove)
 {
@@ -178,6 +179,7 @@ Object& LoadedObjects::getByName(string toGet)
 		cout << "didn't find it" << endl;
 	}
 }
+
 //Full game save that tracks all objects
 void LoadedObjects::saveAllObjects(ofstream& oFile)
 {
@@ -199,7 +201,6 @@ void LoadedObjects::quickSaveAllObjects(ofstream& oFile)
 		ite->saveObject(oFile);
 	}
 }
-
 
 void LoadedObjects::printAllObjs()
 {
