@@ -131,6 +131,7 @@
     <ClCompile Include="ArenaMainApp.cpp" />
     <ClCompile Include="ArenaOptions.cpp" />
     <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Equipped.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="TheQuestForRickAxely.cpp" />
   </ItemGroup>
@@ -140,6 +141,7 @@
     <ClInclude Include="ArenaOptions.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="Enums.h" />
+    <ClInclude Include="Equipped.h" />
     <ClInclude Include="Player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
