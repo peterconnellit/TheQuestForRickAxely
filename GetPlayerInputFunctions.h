@@ -12,7 +12,7 @@ std::vector<std::string> getInputn();
 //This takes sentence and splits it into vector
 std::vector<std::string> split(const std::string& s);
 
-//Puts > before user input
+//Adds > before user input
 void expInput();
 
 //Function that takes input

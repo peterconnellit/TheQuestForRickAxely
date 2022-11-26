@@ -71,7 +71,7 @@ string userInput()
 {
 	string word = "";
 
-	//This ads > before input
+	//This adds > before input
 	expInput();
 	cin >> word;
 
