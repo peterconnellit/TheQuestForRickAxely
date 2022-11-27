@@ -1,0 +1,8 @@
+Name= NoName
+health= 450
+maxHealth= 500
+armor= 8
+attack= 251
+blockCHance= 20
+level= 1
+curExperience= 0

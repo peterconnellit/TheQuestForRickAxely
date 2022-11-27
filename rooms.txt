@@ -1,0 +1,48 @@
+TotalNumberOfRooms= 6
+
+RoomNumber= 1
+Name= Forest
+Description= You are in the forest full of red maple trees and oak trees. You can hear see birds nearby and see pathway with sign Perpontium.
+ExitsNumber= 2
+Exit1= Market
+Exit2= Dock
+
+
+RoomNumber= 2
+Name= Market
+Description= You are in the market square full of merchants. There is a loads of fresh goods just being brought from port to be sold.
+ExitsNumber= 3
+Exit1= Forest
+Exit2= Dock
+Exit3= Palace
+
+
+RoomNumber= 3
+Name= Dock
+Description= You are in the dock feeling see breeze on your face. There are ships loading and unloading their cargo.
+ExitsNumber= 2
+Exit1= Forest
+Exit2= Market
+
+
+RoomNumber= 4
+Name= Palace
+Description= You are in the palace with massive stone walls. You can feel that this is the centre of power for Perpontium town.
+ExitsNumber= 2
+Exit1= Market
+Exit2= Arena
+
+
+
+RoomNumber= 5
+Name= Arena
+Description= You are standing in amphitheater full of gladiators ready for combat.Sun is shining through the pillars and people are exited for battle. There is signing up for competition.
+ExitsNumber= 2
+Exit1= Palace
+Exit2= Armory
+
+RoomNumber= 6
+Name= Armory
+Description= You are in the armory full of swords, armors and potions. You can take them all but you can equip only one item in each equipment slot so chose carefully.
+ExitsNumber= 1
+Exit1= Arena

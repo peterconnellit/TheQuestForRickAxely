@@ -1,0 +1,69 @@
+Name= Ringo
+health= 150
+maxHealth= 500
+armor= 8
+attack= 25
+blockCHance= 20
+level= 1
+expToGive= 100
+position= none
+
+Name= Cassius
+health= 150
+maxHealth= 500
+armor= 8
+attack= 25
+blockCHance= 20
+level= 1
+expToGive= 100
+position= none
+
+Name= Sebastian
+health= 150
+maxHealth= 500
+armor= 8
+attack= 25
+blockCHance= 20
+level= 1
+expToGive= 100
+position= none
+
+Name= Bane
+health= 150
+maxHealth= 500
+armor= 8
+attack= 25
+blockCHance= 20
+level= 1
+expToGive= 100
+position= none
+
+Name= Alexandros
+health= 150
+maxHealth= 500
+armor= 8
+attack= 25
+blockCHance= 20
+level= 1
+expToGive= 100
+position= none
+
+Name= Eustorgios
+health= 150
+maxHealth= 500
+armor= 8
+attack= 25
+blockCHance= 20
+level= 1
+expToGive= 100
+position= none
+
+Name= Karpos
+health= 150
+maxHealth= 500
+armor= 8
+attack= 25
+blockCHance= 20
+level= 1
+expToGive= 100
+position= none

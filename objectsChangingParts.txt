@@ -1,0 +1,112 @@
+
+UseWith= nothing
+Open= canotOpen
+isOpenable= 0
+isUsable= 0
+isEquipable= 0
+RoomWhereItIs= Dock
+
+UseWith= Net
+Open= armor
+isOpenable= 0
+isUsable= 0
+isEquipable= 0
+RoomWhereItIs= Market
+
+UseWith= nothing
+TextOpen= shield
+isOpenable= 1
+isUsable= 0
+isEquipable= 0
+RoomWhereItIs= Market
+
+UseWith= nothing
+Open= canotOpen
+isOpenable= 0
+isUsable= 1
+isEquipable= 0
+RoomWhereItIs= Forest
+
+UseWith= nothing
+Open= canotOpen
+isOpenable= 0
+isUsable= 1
+isEquipable= 0
+RoomWhereItIs= Palace
+
+UseWith= nothing
+slot= hand
+isOpenable= 0
+isUsable= 0
+isEquipable= 1
+RoomWhereItIs= Armory
+
+UseWith= nothing
+slot= hand
+isOpenable= 0
+isUsable= 0
+isEquipable= 1
+RoomWhereItIs= Armory
+
+UseWith= nothing
+slot= hand
+isOpenable= 0
+isUsable= 0
+isEquipable= 1
+RoomWhereItIs= Armory
+
+UseWith= nothing
+slot= arm
+isOpenable= 0
+isUsable= 0
+isEquipable= 1
+RoomWhereItIs= Armory
+
+UseWith= nothing
+slot= arm
+isOpenable= 0
+isUsable= 0
+isEquipable= 1
+RoomWhereItIs= Armory
+
+UseWith= nothing
+slot= chest
+isOpenable= 0
+isUsable= 0
+isEquipable= 1
+RoomWhereItIs= Armory
+
+UseWith= nothing
+slot= chest
+isOpenable= 0
+isUsable= 0
+isEquipable= 1
+RoomWhereItIs= Armory
+
+UseWith= nothing
+slot= canotOpen
+isOpenable= 0
+isUsable= 1
+isEquipable= 0
+RoomWhereItIs= Arena
+
+UseWith= nothing
+slot= chest
+isOpenable= 0
+isUsable= 0
+isEquipable= 1
+RoomWhereItIs= nowhere
+
+UseWith= nothing
+slot= arm
+isOpenable= 0
+isUsable= 0
+isEquipable= 1
+RoomWhereItIs= nowhere
+
+UseWith= nothing
+slot= nothing
+isOpenable= 0
+isUsable= 1
+isEquipable= 0
+RoomWhereItIs= nowhere
