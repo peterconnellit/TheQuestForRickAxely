@@ -147,6 +147,7 @@
     <ClCompile Include="PrintFunctionality.cpp" />
     <ClCompile Include="Room.cpp" />
     <ClCompile Include="SetConsoleWindow.cpp" />
+    <ClCompile Include="StringFunctionality.cpp" />
     <ClCompile Include="TheQuestForRickAxely.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -171,6 +172,7 @@
     <ClInclude Include="Player.h" />
     <ClInclude Include="PrintFunctionality.h" />
     <ClInclude Include="Room.h" />
+    <ClInclude Include="StringFunctionality.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
