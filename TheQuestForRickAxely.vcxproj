@@ -146,6 +146,7 @@
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="PrintFunctionality.cpp" />
     <ClCompile Include="Room.cpp" />
+    <ClCompile Include="SetConsoleWindow.cpp" />
     <ClCompile Include="TheQuestForRickAxely.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -156,6 +157,7 @@
     <ClInclude Include="Enums.h" />
     <ClInclude Include="Equipped.h" />
     <ClInclude Include="GetPlayerInputFunctions.h" />
+    <ClInclude Include="SetConsoleWindow.h" />
     <ClInclude Include="Inventory.h" />
     <ClInclude Include="LoadedEnemies.h" />
     <ClInclude Include="LoadedObjects.h" />
