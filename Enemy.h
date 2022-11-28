@@ -3,7 +3,7 @@
 //this is enemy class interface to the user
 //enemy class that extends player class
 
-#include"Equiped.h"
+#include"Equipped.h"
 #include "Inventory.h"
 #include <string>
 #include<fstream>

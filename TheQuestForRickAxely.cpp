@@ -33,7 +33,7 @@ int main()
 	if (startFromSave() == true)
 	{
 		loadSavedPlayer(currPlayer);
-		setupLoadedGame(myMap, currPlayer, allObjects);
+		
 		loadSavedEnemies(allEnemies);
 	}
 	else

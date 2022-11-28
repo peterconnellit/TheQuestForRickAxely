@@ -20,7 +20,7 @@ using std::endl;		using std::transform;
 typedef vector<string> stringContainer; //Only change here for std::list 
 
 //Pass reference to vector i want to check (before it was sentence)
-void parse(Map& currentMap, Player& curPlayer, stringContainer& sentence, LoadedObjects& loadedObj, LoadedEnemies& allEnem, LoadedGames& allPuzzles)//if you sort the vector search time is faster so maybe use sorted vector
+void parse(Map& currentMap, Player& curPlayer, stringContainer& sentence, LoadedObjects& loadedObj, LoadedEnemies& allEnem) //Sorted vector search time is faster so maybe use
 {
 	//cout << "A of map" << &currentMap << endl;
 	//Fits the vector to its actual size possibly saving memory
@@ -114,13 +114,6 @@ void parse(Map& currentMap, Player& curPlayer, stringContainer& sentence, Loaded
 		cout << "You have quick saved game" << endl;
 		quickSaveGame(loadedObj, curPlayer, currentMap, allEnem); //Save game and tracks all the objects but resets non important ones
 
-	}
-	else if (foundInSentence(sentence, "solve") == true)
-	{
-		//Load random game from possible games loaded from txt file
-		allPuzzles.loadRandomGame();
-		cout << "You got health potion for playing the minigame" << endl;
-		addPotion(curPlayer, loadedObj);
 	}
 	else
 	{

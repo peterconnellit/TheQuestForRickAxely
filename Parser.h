@@ -13,7 +13,7 @@
 //Parser interface to the user
 
 //Function that checks player input for examine, use ... with ... and open
-void parse(Map& currentMap, Player& curPlayer, std::vector<std::string>& sentence, LoadedObjects& loadeObj, LoadedEnemies& allEnem, LoadedGames& allPuzzles);//pass player and map to adjust changes according to input
+void parse(Map& currentMap, Player& curPlayer, std::vector<std::string>& sentence, LoadedObjects& loadeObj, LoadedEnemies& allEnem); //Pass player and map to adjust changes according to input
 
 bool foundInSentence(std::vector<std::string>& sentence, std::string toSearchFor);
 void searchRoomExitNames(std::vector<std::string>& sentence, Map& currentMap, Player& curPlayer, LoadedEnemies& allEnem, LoadedObjects& allObjs);

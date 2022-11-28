@@ -6,7 +6,7 @@
 //Player class
 #include<string>
 #include"Inventory.h"
-#include"Equiped.h"
+#include"Equipped.h"
 #include<fstream>
 
 class Enemy;
@@ -23,14 +23,14 @@ protected: //Set the variables to be private
 	int currExperience;
 	std::string name;
 	Inventory pInventory; //Create new inventory for player
-	Equiped pHasEquiped; //Create new equiped 
+	Equipped pHasEquiped; //Create new equiped 
 
 public:
 	//Default constructor
 	Player();
 	Player(std::string nm);
 	//Full constructor
-	Player(int arm, int atc, int blR, std::string nm, Inventory pInv, Equiped pHasEquiped, int level, int curExp, int maxH);
+	Player(int arm, int atc, int blR, std::string nm, Inventory pInv, Equipped pHasEquiped, int level, int curExp, int maxH);
 	//Create getters and setters
 	double getHealth();
 	void setHealth(int hel);
@@ -59,7 +59,7 @@ public:
 	void removeFromInventory(std::string& toRemove);
 	void equip(Object& toAdd);
 
-	Equiped getEquiped();
+	Equipped getEquiped();
 	void removeFromEquiped(Object& toRemove);
 	void removeFromEquiped(std::string& toRemove);
 	bool checkUseWith(std::string& toCheck);
